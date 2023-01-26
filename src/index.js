@@ -8,8 +8,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 const name = "Jane";
-var d = new Date();
-var year = d.getFullYear();
+var currentDate = new Date();
+var year = currentDate.getFullYear();
 
 ReactDOM.render(
   <div>
